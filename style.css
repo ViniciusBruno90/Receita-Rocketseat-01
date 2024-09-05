@@ -1,3 +1,18 @@
+body{
+      background-image:url(assets/Página\ de\ receita\ bg.svg);
+      background-size: cover; /* cover cobre toda a pagina com a imagem*/
+}
+
+#page {
+    box-sizing: border-box; /* tira o valor padrao da caixa e deixa o que alocamos*/
+    width: 800px;
+    padding: 24px;
+    background-color: #F0E8C2;
+    border-radius: 24px;
+    margin: 48px auto; /* 48px serve para cima e para baixo ja o auto para as laterias*/
+    
+}
+
 img {
     border-radius: 16px;
 }
